@@ -1,0 +1,15 @@
+package com.JavaPrograms;
+
+// To print the ASCII value of a given string, we can also take a character from the user.
+
+import java.util.Scanner;
+public class PrintAsciiValue {
+    public static void main(String[] args)
+    {
+        System.out.print("Enter a character: ");
+        Scanner sc = new Scanner(System.in);
+        char chr = sc.next().charAt(0);
+        int asciiValue = chr;
+        System.out.println("ASCII value of " +chr+ " is: "+asciiValue);
+    }
+}
